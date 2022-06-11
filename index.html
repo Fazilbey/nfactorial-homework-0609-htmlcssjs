@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>older
+    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="general">
+        <div class="doubleplay">
+            <article>
+                <h3></h3>Create Custom Saundtracks on Films with combination of instruments</h3>
+              </article>
+        <div class="videoplay" >
+            <video id="video-background" autoplay loop muted height="50%" width="100%" controls="controls">
+                <source src="./movie.mp4">
+              </source> 
+            </video>
+        </div>
+        <div id="audioplay" class="audio">
+            <audio  id="guitar" loop>
+                <source src="./e58b278b2f0c7c9.mp3">
+            </audio>
+            <audio  id="drum" loop>
+                <source src="./z_uk-boe_ogo-barabana.mp3">
+            </audio>
+            <audio id="duduk" loop>
+                <source src="./duduk-practice-during-the-storm.mp3" >
+              Your browser does not support the audio element.
+              </audio>
+
+              <audio  id="saksafon" loop>
+                <source src="./17099_1461698781.mp3">
+            </audio>
+            
+        <div class="allbutton">
+            
+               <button class="btn" onclick="playGuitar()" >
+                   <i class="fa fa-play"></i> Guitar
+                </button>
+               <button class="btn" onclick="playDrum()"> 
+                   <i class="fa fa-play"></i> Drum</button>
+               <button class="btn" onclick="playDuduk()">
+                <i class="fa fa-play"></i> Duduk</button>
+               <button class="btn" onclick="playSaksafon()">
+                   <i class="fa fa-play"></i> Saksafon</button>
+               <button class="btn" onclick="justMute()" >
+                   <i class="fa fa-reset"></i> Mute All</button>    
+
+        </div>
+        </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
